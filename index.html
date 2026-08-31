@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veymont Supply LLC | Online Retail & E-Commerce</title>
+<meta name="description" content="Veymont Supply LLC is an online retail company focused on quality products, trusted brands, and responsible sourcing.">
+<style>
+:root{
+  --ink:#111827;--muted:#64748b;--line:#e5e7eb;--paper:#f8fafc;--white:#fff;
+  --accent:#1f4b99;--accent2:#173a78;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--white);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:10}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:800;letter-spacing:-.04em;font-size:1.2rem}
+.brand span{color:var(--accent)}
+.navlinks{display:flex;gap:28px;font-size:.92rem;color:#475569}
+.navlinks a:hover{color:var(--accent)}
+.hero{background:linear-gradient(135deg,#f8fafc 0%,#eef4ff 100%);padding:110px 0 105px;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:70px;align-items:center}
+.eyebrow{font-size:.78rem;text-transform:uppercase;letter-spacing:.16em;font-weight:800;color:var(--accent);margin-bottom:18px}
+h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.02;letter-spacing:-.06em;margin-bottom:24px}
+.hero p{font-size:1.15rem;color:#475569;max-width:650px}
+.cta{display:inline-flex;margin-top:32px;padding:13px 20px;background:var(--accent);color:white;border-radius:8px;font-weight:700}
+.cta:hover{background:var(--accent2)}
+.hero-card{background:white;border:1px solid var(--line);border-radius:18px;padding:34px;box-shadow:0 20px 60px rgba(15,23,42,.08)}
+.hero-card .number{font-size:3rem;font-weight:800;letter-spacing:-.05em;color:var(--accent)}
+.hero-card h3{font-size:1.2rem;margin:8px 0}
+.hero-card p{font-size:.95rem}
+section{padding:90px 0}
+.section-head{max-width:700px;margin-bottom:42px}
+.section-head h2{font-size:2.3rem;letter-spacing:-.045em;margin-bottom:12px}
+.section-head p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{border:1px solid var(--line);border-radius:14px;padding:28px;background:white}
+.icon{width:42px;height:42px;border-radius:10px;background:#edf3ff;color:var(--accent);display:grid;place-items:center;font-weight:800;margin-bottom:20px}
+.card h3{margin-bottom:8px;font-size:1.08rem}
+.card p{color:var(--muted);font-size:.94rem}
+.alt{background:var(--paper)}
+.categories{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.category{padding:22px;border:1px solid var(--line);background:white;border-radius:12px;font-weight:700}
+.category small{display:block;color:var(--muted);font-weight:400;margin-top:4px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.checklist{display:grid;gap:18px}
+.check{display:flex;gap:14px}
+.checkmark{color:var(--accent);font-weight:900}
+.contact-box{background:#101827;color:white;border-radius:18px;padding:55px}
+.contact-box p{color:#cbd5e1;max-width:650px}
+.contact-details{margin-top:28px;display:grid;gap:8px;color:#e2e8f0}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.85rem}
+.footer-row{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:800px){
+ .hero-grid,.split{grid-template-columns:1fr}
+ .cards,.categories{grid-template-columns:1fr}
+ .navlinks{display:none}
+ .hero{padding:75px 0}
+ section{padding:65px 0}
+ .footer-row{flex-direction:column}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#">VEYMONT <span>SUPPLY</span></a>
+    <nav class="navlinks">
+      <a href="#about">About</a>
+      <a href="#categories">Categories</a>
+      <a href="#standards">Our Standards</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Online Retail &amp; E-Commerce</div>
+      <h1>Quality products. Trusted brands.</h1>
+      <p>Veymont Supply LLC is an online retail company focused on sourcing quality products from established brands and reputable suppliers for customers across trusted e-commerce marketplaces.</p>
+      <a class="cta" href="#contact">Business Inquiries</a>
+    </div>
+    <div class="hero-card">
+      <div class="number">01</div>
+      <h3>Responsible sourcing</h3>
+      <p>We build relationships with reputable suppliers and distributors and prioritize authentic products, accurate information, and dependable customer service.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container split">
+    <div>
+      <div class="eyebrow">About Veymont</div>
+      <h2>Built around reliable sourcing and long-term relationships.</h2>
+      <p style="color:#64748b;margin-top:18px">Veymont Supply LLC is an American online retail company focused on providing customers with quality products from established brands through trusted e-commerce marketplaces.</p>
+    </div>
+    <div class="checklist">
+      <div class="check"><span class="checkmark">✓</span><div><strong>Authenticity</strong><br><span style="color:#64748b">We prioritize genuine products sourced through reputable channels.</span></div></div>
+      <div class="check"><span class="checkmark">✓</span><div><strong>Reliability</strong><br><span style="color:#64748b">We aim to provide a consistent and dependable customer experience.</span></div></div>
+      <div class="check"><span class="checkmark">✓</span><div><strong>Partnerships</strong><br><span style="color:#64748b">We value professional, long-term relationships with suppliers and brands.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="categories" class="alt">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Product Categories</div>
+      <h2>Focused on everyday products customers need.</h2>
+      <p>Our product assortment can evolve based on supplier availability, customer demand, and brand requirements.</p>
+    </div>
+    <div class="categories">
+      <div class="category">Automotive &amp; Car Care<small>Maintenance, accessories, and related products</small></div>
+      <div class="category">Home Improvement<small>Home, hardware, lighting, and improvement products</small></div>
+      <div class="category">Household Products<small>Everyday home and consumer essentials</small></div>
+      <div class="category">Tools &amp; Accessories<small>Useful products for home and work</small></div>
+      <div class="category">Consumer Goods<small>Selected products from established brands</small></div>
+      <div class="category">E-Commerce Products<small>Products offered through approved online channels</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="standards">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Our Standards</div>
+      <h2>Professional sourcing. Accurate listings. Dependable service.</h2>
+      <p>We believe sustainable e-commerce businesses are built through responsible purchasing and strong supplier relationships.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="icon">01</div><h3>Responsible Sourcing</h3><p>We seek established suppliers and distributors and maintain organized purchasing records.</p></div>
+      <div class="card"><div class="icon">02</div><h3>Product Integrity</h3><p>We prioritize authentic products and accurate product information across our sales channels.</p></div>
+      <div class="card"><div class="icon">03</div><h3>Long-Term Growth</h3><p>We focus on building lasting relationships with suppliers, brands, and customers.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="alt">
+  <div class="container">
+    <div class="contact-box">
+      <div class="eyebrow" style="color:#9db8f2">Contact</div>
+      <h2 style="font-size:2.4rem;letter-spacing:-.04em;margin-bottom:14px">Let's build a lasting partnership.</h2>
+      <p>For wholesale, supplier, and business inquiries, contact Veymont Supply LLC using the business information below.</p>
+      <div class="contact-details">
+        <div><strong>Veymont Supply LLC</strong></div>
+        <div>Virginia, United States</div>
+        <div>Business Email: <strong>[YOUR BUSINESS EMAIL]</strong></div>
+        <div>Phone: <strong>[YOUR BUSINESS PHONE]</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <div>© 2026 Veymont Supply LLC. All Rights Reserved.</div>
+    <div>Online Retail &amp; E-Commerce</div>
+  </div>
+</footer>
+</body>
+</html>
